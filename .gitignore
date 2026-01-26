@@ -1,0 +1,36 @@
+			# Dependências do Composer
+			/vendor/
+
+			# Arquivos de ambiente (NUNCA subir para o GitHub)
+			.env
+			.env.local
+			.env.backup
+
+			# Logs e arquivos temporários
+			*.log
+			*.tmp
+			*.cache
+			*.bak
+
+			# Diretórios de cache comuns
+			/cache/
+			tmp/
+			temp/
+
+			# Arquivos do sistema operacional
+			.DS_Store
+			Thumbs.db
+
+			# Configurações de IDEs
+			.idea/
+			.vscode/
+			*.code-workspace
+
+			# Arquivos gerados automaticamente
+			composer.lock
+			*.zip
+			*.tar.gz
+
+			# Sessões ou uploads temporários
+			sessions/
+			uploads/tmp/
